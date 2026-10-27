@@ -1,4 +1,4 @@
-# Vajra Drishti — FPGA-Based Drone Detection and Target Tracking
+# Vajra Drishti — FPGA-Based Autonomous Drone Detection and Target Tracking
 
 <p align="center"><img src="images/architecture/complete_architecture.jpg" alt="Vajra Drishti architecture" width="900"></p>
 
