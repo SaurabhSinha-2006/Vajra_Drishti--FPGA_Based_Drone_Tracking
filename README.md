@@ -77,7 +77,7 @@ UART receiver -> Frame storage / motion candidate detection
 
 <p align="center"><img src="images/architecture/fsm.png" alt="System state machine" width="700"></p>
 
-See [Architecture](docs/architecture.md) for subsystem explanations, data assumptions, and design boundaries.
+See [Architecture](Docs/architecture.md) for subsystem explanations, data assumptions, and design boundaries.
 
 ## Subsystems
 
@@ -140,7 +140,7 @@ Vajra_Drishti/
 │   └── simulation/
 │       └── stage-I_simulation/
 ├── legacy/
-└── docs/
+└── Docs/
     ├── architecture.md
     ├── development_log.md
     ├── hardware_setup.md
@@ -180,12 +180,12 @@ For reproducible evidence, record the testbench, DUT, parameter values, simulato
 
 The current plan is to use Python on a host PC, a USB-to-TTL adapter, and the board UART pins. Before sending full frames, confirm that the adapter is 3.3 V TTL (not RS-232), cross TX/RX correctly, share ground, match baud/framing, and validate byte echo. Confirm the exact frame marker and result packet format from RTL before implementing the full host protocol.
 
-See [Hardware Setup](docs/hardware_setup.md).
+See [Hardware Setup](Docs/hardware_setup.md).
 
 ## Getting started
 
 1. Obtain the repository and inspect the RTL, memory files, testbenches, and XDC.
-2. Read [Architecture](docs/architecture.md) and [Verification Status](docs/verification_status.md).
+2. Read [Architecture](Docs/architecture.md) and [Verification Status](Docs/verification_status.md).
 3. Open/create the correct Vivado project for the intended FPGA part.
 4. Add required RTL and memory files; select the intended top module.
 5. Add the matching XDC and check every port, pin, I/O standard, and clock constraint.
@@ -196,10 +196,10 @@ See [Hardware Setup](docs/hardware_setup.md).
 Because the design is evolving, do not assume every historical testbench works with every current top module.
 
 ## Documentation
-- [Architecture](docs/architecture.md)
-- [Development Log](docs/development_log.md)
-- [Hardware Setup](docs/hardware_setup.md)
-- [Verification Status](docs/verification_status.md)
+- [Architecture](Docs/architecture.md)
+- [Development Log](Docs/development_log.md)
+- [Hardware Setup](Docs/hardware_setup.md)
+- [Verification Status](Docs/verification_status.md)
 
 ## Limitations and responsible interpretation
 
